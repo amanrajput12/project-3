@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.first-flex{
+  padding: 2rem 4rem 2rem 4rem;
+    background-color:#2f2620;
+    list-style-type: none;
+}
+
+.nav-logo{
+    width: 5rem;
+  flex-grow: 2;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    color: gray;
+}
+.nav-item{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+}
+
+li:nth-child(1){
+    color: white;
+}
+input[value="Get Started"]{
+    background-color:#2f2620; 
+    color: yellow;
+    border:1px solid yellow;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 0.4rem;
+}
+.second-flex{
+    display: flex;
+    color: #ffffff;
+    justify-content: space-around;
+}
+.second-flex>h1{
+    font-size: 5rem;
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20rem;
+    font-size: 1.3rem;
+    color: gray;
+}
+
+
+.third-flex{
+    display: flex;
+    flex-direction: column;
+
+}
+.four-flex{
+    display: flex;
+    justify-content: flex-end;
+    background-color:#2f2620;}
+    
+   .footer{
+    align-items: flex-end;
+    width: 8rem;
+   }
