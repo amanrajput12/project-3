@@ -24,13 +24,15 @@ body{
     display: flex;
     justify-content: space-between;
     margin-left: 4rem;
+    cursor: pointer;
 }
 
 li:nth-child(1){
     color: white;
+   
 }
 input[value="Get Started"]{
-    background-color:#2f2620; 
+    background-color:#2f2620; cursor: pointer;
     color: yellow;
     border:1px solid yellow;
     width: 6rem;
@@ -42,7 +44,7 @@ input[value="Get Started"]{
     color: #ffffff;
     justify-content: space-around;
 }
-.second-flex>h1{
+.second-flex :first-child{
     font-size: 5rem;
 }
 .detail{
